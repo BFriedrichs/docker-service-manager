@@ -1,0 +1,48 @@
+
+#containerList {
+}
+
+.containerListItem {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+
+  padding: 16px;
+  color: #f1f1f1;
+  background-color: #3a3a3a;
+
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.listContent {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listContent > div {
+  width: 33%;
+}
+
+.listIcon {
+  margin-right: 16px;
+  font-size: 25px;
+}
+
+.serviceRunning {
+  color: #44aa12;
+}
+
+.serviceStopped {
+  color: #aa4412;
+}
+
+.buttonArea {
+  display: flex;
+}
+
+.buttonArea > .clickButton {
+  flex: 1;
+}

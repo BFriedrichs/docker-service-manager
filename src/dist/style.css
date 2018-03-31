@@ -1,0 +1,74 @@
+
+.clickButton {
+  color: #2a2a2a;
+  background-color: #f1f1f1;
+  padding: 4px 4px;
+  border-radius: 4px;
+
+  text-align: center;
+  margin: 0 4px;
+  cursor: pointer;
+
+  box-shadow: 0 2px 5px 2px;
+  transition: box-shadow .2s;
+}
+
+.clickButton:hover {
+  background-color: #a2a2a2;
+}
+
+.clickButton:active {
+  background-color: #8a8a8a;
+  box-shadow: 0 0 2px 1px;
+}
+#containerList {
+}
+
+.containerListItem {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+
+  padding: 16px;
+  color: #f1f1f1;
+  background-color: #3a3a3a;
+
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.listContent {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listContent > div {
+  width: 33%;
+}
+
+.listIcon {
+  margin-right: 16px;
+  font-size: 25px;
+}
+
+.serviceRunning {
+  color: #44aa12;
+}
+
+.serviceStopped {
+  color: #aa4412;
+}
+
+.buttonArea {
+  display: flex;
+}
+
+.buttonArea > .clickButton {
+  flex: 1;
+}* {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map*/
